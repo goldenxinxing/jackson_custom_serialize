@@ -91,7 +91,7 @@ public class RecordList {
             "typeName": "OBJECT"
         },
         "v": {
-            "path": "a.b",
+            "path": "a.b", # this is the virtual column
             "type": {
                 "category": "string",
                 "nbits": 8,
@@ -105,7 +105,7 @@ public class RecordList {
             "a": {
                 "b": "hi-1,sw!"
             },
-            "v": "hi-1,sw!"
+            "v": "hi-1,sw!" # result of virtual column
         },
         {
             "x": "hello",
